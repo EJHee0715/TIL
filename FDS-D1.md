@@ -1,5 +1,7 @@
 #FDS Day-1
 
+`Shell, Bash, Bash 명령어 및 조작`
+
 ##### 쉘과 명령어
 
 - Shell
