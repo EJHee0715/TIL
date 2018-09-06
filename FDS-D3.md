@@ -1,7 +1,7 @@
 #FDS Day-3
 
 
-`웹접근성과 웹표준` `HTML CSS JavaScript` `FRONT-END` `시멘틱` `CSS`
+`오늘 수업내용` `웹접근성과 웹표준` `HTML CSS JavaScript` `FRONT-END` `시멘틱` `Tim Berners-Lee`
 
 ##### 인터넷 역사
 
@@ -16,7 +16,6 @@
   - FTP 
   - WWW
 
-`인터넷의 아버지 Tim Berners-Lee`
 
 ##### WWW (World Wide Web)
 
