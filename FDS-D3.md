@@ -1,7 +1,7 @@
 #FDS Day-3
 
 
-`웹접근성과 웹표준, HTML CSS JavaScript, FRONT-END`
+`웹접근성과 웹표준` `HTML CSS JavaScript` `FRONT-END` `시멘틱` `CSS`
 
 ##### 인터넷 역사
 
