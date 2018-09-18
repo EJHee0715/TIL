@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>로그인</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU">
+  <style>
+
+    * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      width:100%;
+      min-height:100vh;
+      display:flex;
+      justify-content: center;
+      align-items:center;
+      background-color:#f2f2f2;
+    }
+
+    .login-form {
+      width:390px;
+      padding:70px 55px 33px 55px;
+      border-radius:10px;
+      background-color: #fff;
+      box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    }
+
+    .Welcome {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:35px;
+      font-weight: bold;
+      color:#333333;
+      width:100%;
+      text-align: center;
+      padding-bottom:40px;
+    }
+    .logo {
+      text-align:center;
+      margin-bottom:70px;
+    }
+
+    .logo img {
+      width:50.63px;
+    }
+
+    form {
+      padding-bottom:115px;
+    }
+
+    .login-form fieldset {
+      border:0;
+      width:100%;
+    }
+
+    .user-id, .user-pw {
+      width:100%;
+      position:relative;
+      right:10px;
+    }
+
+    label {
+      position: absolute;
+      top:5px;
+      transition: all;
+      transition-duration: 0.5s;
+    }
+
+    #user-id, #user-pw {
+      width:100%;
+      height:30px;
+      border:0;
+      border-bottom:1px solid #333;
+      font-size:15px;
+      color:#555;
+      margin-bottom:45px;
+    }
+    
+    #user-id:focus + label, #user-pw:focus + label {
+      top:-20px;
+    }
+
+    #user-id:focus, #user-pw:focus {
+      outline: none;
+    }
+
+    .btn-form {
+      z-index:-1;
+      width:300px;
+      height:100%;
+      
+    }
+
+    #login-btn {
+      background:linear-gradient(to right, #21d4fd, #b721ff);
+      width:100%;
+      height:30px;
+      border-radius: 30px;
+      border:0;
+      font-size:15px;
+      color:#fff;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight:bold;
+      text-transform: uppercase;
+    }
+
+    .sign-Up {
+      text-align:center;
+      font-size:15px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="login-form">
+      <h1 class="Welcome">Welcome</h1>
+      <div class="logo">
+        <img src="https://files.slack.com/files-pri/TC4CCHM0C-FCUK0JCHZ/_______________________________2018-09-17______________3.05.38.png" alt="로고">
+      </div>
+      <form>
+        <fieldset>
+          <div class="user-id ">
+            <input type="email" id="user-id" required >
+            <label for="user-id">Email</label>
+          </div>
+          <div class="user-pw ">
+            <input type="password" id="user-pw" required>          
+            <label for="user-pw">Password</label>
+          </div>
+          <div class="btn-form">
+          <button type="submit" id="login-btn">LOGIN</button>
+          </div>
+        </fieldset>
+      </form>
+      <div class="sign-Up">
+        <span>Don’t have an account?</span>
+        <a href="#">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
