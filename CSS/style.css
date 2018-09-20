@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  font: inherit;
+  vertical-align: baseline;
+}
+font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+ul {
+  list-style: none;
+}
+.wrap {
+  width:100%;
+}
+
+.background {
+  min-height:100vh;
+  padding:20px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.container {
+  width:390px;
+  padding:70px 50px 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px -5px #FF3232;
+  display:inline-block;
+}
+
+.WELCOME {
+  font-size:1.6rem;
+  color:#333;
+  padding-bottom:45px;
+  text-align:center;
+  line-height:1.2;
+}
+
+.fab {
+  width:100%;
+  text-align:center;
+}
+
+.fa-connectdevelop::before {
+  opacity:0.7;
+}
+
+.fa-connectdevelop:hover {
+  color:black;
+}
+
+.LOGIN-FORM {
+  width:100%;
+  padding:40px 0;
+}
+
+.user-id, .user-pw {
+  padding-bottom:15px;
+  width:100%;
+}
+
+.user-id input, .user-pw input {
+  width:100%;
+  height:35px;
+  border:0;
+  border-bottom:1px solid #FF3232;
+  border-image: linear-gradient(to right, #ff3232 0%, #B90000 100%);
+  border-image-slice: 1;
+  opacity: 0.7;
+  outline: none;
+  font-size:15px;
+}
+
+.user-id label, .user-pw label {
+  color:#555;
+  position: relative;
+  bottom:25px;
+  left:5px;
+}
+
+.BTN {
+  width:90%;
+  height:40px;
+  border:0;
+  border-radius: 35px;
+  padding:0;
+  position: relative;
+  top:0;
+  left:20px;
+  background: linear-gradient(to right, #ff3232, #FF0000, #ff3232,#FF0000);
+  color:#fff;
+  font-weight: bold;
+  margin-top:65px;
+
+}
+
+.sign-up {
+  font-size:13px;
+  color:#333;
+  text-align:center;
+  padding:100px 0 0 0;
+}
+
+.sign-up a {
+  padding:0 10px;
+}
