@@ -108,10 +108,12 @@ ul {
   position: relative;
   top:0;
   left:20px;
-  background: linear-gradient(to right, #ff3232, #FF0000, #ff3232,#FF0000);
-  color:#fff;
-  font-weight: bold;
+  background-color:rgba(0,0,0,0);
+  color:#333;
+  font-size:1rem;
+  font-weight: 400;
   margin-top:65px;
+  box-shadow: 0 0 30px -7px #FF3232;
 
 }
 
@@ -124,4 +126,5 @@ ul {
 
 .sign-up a {
   padding:0 10px;
+  color:#ff3232;
 }
