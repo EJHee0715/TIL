@@ -1,6 +1,6 @@
 # 2018-10-08 월요일
 
-`JavaScript Basic` `Variable` `Value`
+`JavaScript Basic` `Variable` `Value` `Identifier`
 
 자바스크립트는 느슨한 타입 체크 언어이다. 엄격한 타입 체크 언어인 C언어는 변수를 선언할 때 변수에 저장할 데이터에 종류에 따라 예약어를 이용해서 변수 데이터의 타입을 지정 해야 한다.
 
@@ -30,7 +30,38 @@
 
 ##### 식별자(Identifier) 
 
-  - 
+  - 식별자는 Const, Let을 선언 후 앞에 붙이는 이름을 식별자라고 한다.
+  - 프로그래밍 언어에서 식별자는 어떤 개체를 유일하게 식별학기 위해서 사용한다.
+
+  - 식별자 규칙 
+
+    - 숫자, 알파벳, 달러 문자($), 언더스코프 (_)가 포함될 수 있다.
+    - 단 숫자는 먼저 시작할 수 없다.
+    - 예약어는 숫자가 될 수 없다. (Var, Const, Let)
+    - 한글도 식별자에 포함은 되지만, 가급적 사용하지 않는게 좋다.
+
+  ```js
+    const foo; // O
+    const _bar123; // O
+    const $; // O - jQuery가 이 식별자를 사용합니다.
+    const 7seven; // X
+    const const; // X - 예약어는 식별자가 될 수 없습니다.
+
+  ```
+
+###### Camel Case 
+
+  - 식별자에 이름을 지을 땐 관례가 있다. 이 관례를 Camel Casse 라고 한다.
+
+  - 식별자에 들어가는 각 단어의 첫글자를 대문자로 써주는 방식
+
+  `EX) const fastCampus // Camel Case`
+
+###### Snake Cases
+
+  - Snake Case는 Camel Case와 달리 모든 글씨를 소문자로 써도 되지만 중간에 _ 언더바를 넣는다.
+
+  `EX) const fast_campus // Snake Case`
 
 ---
 
